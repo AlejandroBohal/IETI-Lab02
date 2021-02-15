@@ -4,11 +4,9 @@ import {MuiPickersUtilsProvider,KeyboardDatePicker} from '@material-ui/pickers'
 import 'react-datepicker/dist/react-datepicker.css';
 import DateFnsUtils from '@date-io/date-fns';
 import 'date-fns';
-import moment from "moment";
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Card from '@material-ui/core/Card';
-import MomentUtils from "@date-io/moment";
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 
@@ -26,7 +24,7 @@ export class TodoCard extends Component {
     }
 
     render() {
-        const {text,priority,dueDate,todoCount,selectedDate} = this.state;
+        const {text,priority,dueDate,todoCount} = this.state;
         return (
             <div>
                 <form onSubmit={this.handleSubmit} className="todo-form" autoComplete="off">

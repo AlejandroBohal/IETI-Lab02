@@ -1,25 +1,25 @@
-.TodoApp {
+.App {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
-.TodoApp-logo {
+.App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
 }
 
-.TodoApp-header {
+.App-header {
     background-color: #222;
     height: 150px;
     padding: 20px;
     color: white;
 }
 
-.TodoApp-title {
+.App-title {
     font-size: 1.5em;
 }
 
-.TodoApp-intro {
+.App-intro {
     font-size: large;
 }
 
@@ -38,7 +38,7 @@
     margin-right: 15px;
 }
 
-@keyframes TodoApp-logo-spin {
+@keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
     }
