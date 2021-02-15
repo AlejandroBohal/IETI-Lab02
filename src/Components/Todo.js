@@ -7,11 +7,12 @@ export class Todo extends React.Component {
     }
 
     render() {
+        const {text,priority,dueDate} = this.props;
         return (
             <tr>
-                <td>{this.props.text}</td>
-                <td>{this.props.priority}</td>
-                <td>{this.props.dueDate.format('DD-MM-YYYY')}</td>
+                <td>{text}</td>
+                <td>{priority}</td>
+                <td>{dueDate.toLocaleDateString()}</td>
             </tr>
         );
     }

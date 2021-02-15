@@ -1,5 +1,6 @@
 .TodoApp {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .TodoApp-logo {
@@ -26,7 +27,6 @@
     border: 1px solid lightsteelblue;
     margin: auto;
     width: 60%;
-    padding: 20px;
     text-align: center;
 }
 
@@ -62,4 +62,7 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+#due-date {
+    margin-bottom: 2px;
 }
