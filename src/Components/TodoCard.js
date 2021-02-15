@@ -20,7 +20,6 @@ export class TodoCard extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleDateChange = this.handleDateChange.bind(this);
-        this.x = this.x.bind(this);
     }
 
     render() {
@@ -100,7 +99,6 @@ export class TodoCard extends Component {
     };
     handleSubmit(e) {
         e.preventDefault();
-        console.log("Aqui estoy puerca")
         const {text,priority,dueDate} = this.state;
         const {items,setItems} = this.props;
         const newItem = {
