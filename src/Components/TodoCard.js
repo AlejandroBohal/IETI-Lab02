@@ -89,9 +89,6 @@ export class TodoCard extends Component {
             [target.name]: target.value 
         });
     }
-    x(){
-        console.log("Hola?");
-    }
     handleDateChange(date){
         this.setState({
             dueDate:date
